@@ -1,0 +1,16 @@
+//Written in AppleScript
+//2017 Apple Pi Applescript Autonomous Code
+
+automode 0 //Drive over baseline
+	drive at .5, 0, 0; until distance = 112
+end
+
+automode 1 //do drive thung
+	Drive for 0, .5, 3
+end
+
+
+automode 2 //do gavin thung
+	Drive at 0, .5, 0; for 0, 0, 5
+end
+
